@@ -110,9 +110,4 @@ The app can create a student, subject, or semester if it does not already exist.
 
 Overall percentage = total marks earned / total possible marks × 100. A student can have a high overall percentage and still be marked FAIL if a subject is below its pass mark.
 
-## Data safety
 
-- The app's default database path is `data/students.db`.
-- Back up that file before experimenting with database migrations or replacing project files.
-- Do not share a database file containing real student personal information.
-- The ZIP does not contain your local database or your existing student records; copy them only after backing them up.
